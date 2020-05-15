@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is Openshift of the app.' + '\n';
+    response = 'This is happy weekends!' + '\n';
 
     //send the response to the client
     res.send(response);
