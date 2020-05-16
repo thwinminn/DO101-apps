@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Manchester United!' + '\n';
+    response = 'Thwin Minn Han!' + '\n';
 
     //send the response to the client
     res.send(response);
